@@ -4,8 +4,7 @@
 This project implements a face blurring system that detects faces and applies different blurring techniques to protect privacy.
 
 The system works on:
-- 🖼️ Images  
-- 🎥 Video files  
+- 🖼️ Images   
 - 📷 Live webcam  
 
 It uses a deep learning model for face detection and OpenCV for image processing.
