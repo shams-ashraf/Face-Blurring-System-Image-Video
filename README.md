@@ -1,38 +1,33 @@
-# 🚀 Face Blurring System (Image & Video)
+# 🚀 Face Anonymization System (Image & Video)
 
 ## 🧠 Overview
-This project implements a face blurring system that detects faces and applies different blurring techniques to protect privacy.
-
-The system works on:
-- 🖼️ Images   
-- 📷 Live webcam  
-
-It uses a deep learning model for face detection and OpenCV for image processing.
+This project implements a real-time face anonymization system for both images and live video streams.  
+It combines deep learning-based face detection with multiple anonymization strategies and controlled intensity levels.
 
 ---
 
 ## ✨ Features
-- 🔍 Face detection using a pre-trained model  
-- 🎬 Real-time face blurring in video  
-- 🖼️ Image-based face blurring  
-- 🎛️ Multiple blur types:
-  - Gaussian Blur  
-  - Median Blur  
-  - Average Blur  
-- ⚙️ Adjustable blur strength (kernel size)  
-- ⌨️ Keyboard controls during video:
-  - G → Gaussian  
-  - M → Median  
-  - A → Average  
-  - + / - → Increase or decrease blur  
+- 🔍 Face detection using a deep learning model (SSD - Caffe)
+- 🎬 Real-time anonymization for webcam video
+- 🖼️ Image-based anonymization
+- 🎛️ Adjustable anonymization intensity levels
+- ⚙️ Dynamic control of anonymization during video processing
 
 ---
 
-## 🧠 How It Works
-1. Detect faces using a deep learning model  
-2. Extract face regions  
-3. Apply selected blur technique  
-4. Display the processed image/video  
+## 🧪 Experimental Analysis
+- Evaluated different blurring approaches across varying intensity levels  
+- Compared face detection performance on original vs preprocessed images  
+- Designed a blur intensity metric to quantify anonymization strength  
+- Mapped anonymization outputs into discrete, controllable levels  
+
+---
+
+## 🧠 System Pipeline
+1. Preprocess input images (denoising + contrast enhancement)
+2. Detect faces using a deep learning model
+3. Apply anonymization based on selected intensity level
+4. Allow real-time adjustment during video processing
 
 ---
 
@@ -43,3 +38,15 @@ It uses a deep learning model for face detection and OpenCV for image processing
 - Deep Learning (SSD - Caffe Model)  
 
 ---
+
+## ▶️ Usage
+### Run Video Anonymization
+```bash
+python vedioDetection.py
+
+Controls
+G → Gaussian mode
+M → Median mode
+A → Average mode
++ / - → Increase / decrease intensity
+ESC → Exit
