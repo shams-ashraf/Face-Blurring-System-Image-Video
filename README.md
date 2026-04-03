@@ -50,3 +50,14 @@ M → Median mode
 A → Average mode
 + / - → Increase / decrease intensity
 ESC → Exit
+
+## 📷 Demo
+
+### 🖼️ Image-Based Anonymization
+<img width="183" height="287" alt="image" src="https://github.com/user-attachments/assets/06e57637-2023-4da9-974e-80e20f40337a" />
+
+---
+
+### 🎬 Real-Time Video Anonymization
+https://www.linkedin.com/posts/mariam-hassan-44b756261_computervision-imageprocessing-opencv-ugcPost-7411043915572879360-ez7L?utm_source=share&utm_medium=member_android&rcm=ACoAAEnTwDsBR6avacm33WuyPun6jfmJm_l3Qog
+![Live Demo](images/demo.gif)
