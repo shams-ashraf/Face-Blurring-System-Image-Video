@@ -51,8 +51,9 @@ A → Average mode
 + / - → Increase / decrease intensity
 ESC → Exit
 
+---
 ## 📷 Demo
-
+---
 ### 🖼️ Image-Based Anonymization
 <img width="183" height="287" alt="image" src="https://github.com/user-attachments/assets/06e57637-2023-4da9-974e-80e20f40337a" />
 
